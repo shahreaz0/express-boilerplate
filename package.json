@@ -1,0 +1,16 @@
+{
+	"name": "express-app",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./src/bin/www",
+		"dev": "nodemon ./src/bin/www"
+	},
+	"dependencies": {
+		"ejs": "^3.1.2",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"chalk": "^4.0.0"
+	}
+}
