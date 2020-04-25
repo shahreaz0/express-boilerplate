@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
 //routes
-app.use("/", honeRouter);
+app.use("/", homeRouter);
 
 //exports
 module.exports = app;
